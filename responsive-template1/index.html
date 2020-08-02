@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive website layout with Flex</title>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-name">
+                <h1>MYSITE</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- This is site for City Tour -->
+        <!-- header image -->
+        <section id="intro" class="header-image">
+            <div class="intro-content">
+                <h1>Never stop exploring</h1>
+                <p>We help you to find amazing places to visit.</p>
+            </div>
+        </section>
+
+        <!-- flex boxes about -->
+        <section class="about">
+            <div class="about-cities">
+                <div class="city">
+                    <div class="city-content">
+                        <h2>city1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/236516/pexels-photo-236516.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <div class="bg-overlay"></div>
+                </div>
+                <div class="city">
+                    <div class="city-content">
+                        <h2>city 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/1797121/pexels-photo-1797121.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <div class="bg-overlay"></div>
+                </div>
+                <div class="city">
+                    <div class="city-content">
+                        <h2>city 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/1731834/pexels-photo-1731834.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <div class="bg-overlay"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- main city -->
+        <section class="city-main">
+            <div class="city-main-content">
+                <div class="city-main-img">
+                    <img src="https://images.pexels.com/photos/2276811/pexels-photo-2276811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" loading="lazy">
+                </div>
+                <div class="city-content-text">
+                    <p>Some tagline</p>
+                    <h1>City main header</h1>
+                    <h2>City main location</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem laudantium saepe quidem suscipit perferendis ab doloribus possimus sunt, pariatur neque voluptate totam delectus nisi ut exercitationem qui labore illum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem laudantium saepe quidem suscipit perferendis ab doloribus possimus sunt, pariatur neque voluptate totam delectus nisi ut exercitationem qui labore illum.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- suscribe -->
+        <section class="subscribe">
+            <div class="subscribe-content">
+                <h3>Subscribe tagline</h3>
+                <div class="subscribe-form">
+                    <form novalidate>
+                        <div>
+                            <input type="email" name="subscribe" autocomplete="off">
+                        </div>
+                        <input type="submit" value="Subscribe" class="btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- locations -->
+        <section class="locations">
+            <div class="location-items">
+                <div class="location">
+                    <h2>City 1 name</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="location">
+                    <h2>City 2 name</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="location">
+                    <h2>City 3 name</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="location">
+                    <h2>City 4 name</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="location">
+                    <h2>City 5 name</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="location">
+                    <h2>City 6 name</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery -->
+        <section class="gallery">
+            <div class="gallery-content">
+                <p>gallery tagline</p>
+                <h1>From our friends</h1>
+            </div>
+            <div class="gallery-pictures">
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/2064827/pexels-photo-2064827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/2422259/pexels-photo-2422259.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/161376/firenze-florence-italy-europe-161376.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/279329/pexels-photo-279329.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/277544/pexels-photo-277544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+                <div class="gallery-pic">
+                    <img src="https://images.pexels.com/photos/534362/pexels-photo-534362.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Copyright Rights Reserved
+        </p>
+    </footer>
+</body>
+</html>
